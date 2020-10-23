@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indeks Masa Tubuh</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="calculator">
+            <h2>Kalkulator</h2>
+            <label for="berat-badan"><strong>Berat Badan:</strong></label><br>
+            <input type="number" id="berat" placeholder="...Kg"><br><br>
+            <label for="berat-badan"><strong> Tinggi Badan:</strong></label> <br>
+            <input type="number" id="tinggi" placeholder="...Cm">
+            <input type="submit" value="OK" id="calculate"><br>
+            <div id="index">Indeks Massa Tubuh Anda: <span>00</span></div>
+        </div>
+        <div id="guide">
+            <h2>Keterangan:</h2>
+            <br>
+            <ul>
+                <li>
+                    <h4>Kurus = Indeks Kurang dari 18.5</h4>
+                </li>
+                <li>
+                    <h4>Ideal = Indeks 18.5 sampai 24.9</h4>
+                </li>
+                <li>
+                    <h4>Gemuk = Indeks 25 sampai 29.9</h4>
+                </li>
+                <li>
+                    <h4>Obesitas = Indeks 30 atau lebih</h4>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+
+</body>
+
+</html>
