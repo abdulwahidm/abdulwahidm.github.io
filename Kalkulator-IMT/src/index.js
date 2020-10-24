@@ -6,8 +6,10 @@ const index = document.getElementById("index");
 calculate.addEventListener("click", () => {
 
     if (tinggi.value != "" && berat.value != "") {
-        // index massa tubuh = berat-badan / (tinggi-badan*tinggi-badan)
+        // index massa tubuh = berat / (tinggi*tinggi)
+
         let indexValue = berat.value / (tinggi.value * tinggi.value) * 10000;
+
         index.innerHTML = `Indeks massa tubuh anda: <span> ${indexValue.toFixed(1)} </span>`
         if (indexValue < 18.5) {
             alert(`Tubuh anda masuk kategori "kurus"${"\n"}Anda memiliki indeks massa tubuh sebesar ${indexValue.toFixed(1)} `)

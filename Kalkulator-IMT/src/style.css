@@ -18,13 +18,12 @@ body {
     background: #fff;
     display: flex;
     flex-direction: row;
-    border-radius: 40px 0;
+    border-radius: 40px 40px;
     overflow: hidden;
-    box-shadow: 2px 2px 4px #00000010, -2px -2px 4px #00000010;
 }
 
 #calculator,
-#guide {
+#keterangan {
     height: 500px;
     width: 400px;
     padding: 20px;
@@ -38,25 +37,25 @@ body {
     font-size: larger;
 }
 
-#guide {
+#keterangan {
     background: #ffa62b;
 }
 
 #calculator h2,
-#guide h2 {
+#keterangan h2 {
     text-align: left;
     font-size: 30px;
     margin: 30px 0;
     color: #1479ff;
 }
 
-#guide h2 {
+#keterangan h2 {
     color: #000;
     letter-spacing: 2px;
     font-size: 30px;
 }
 
-#guide ul li {
+#keterangan ul li {
     font-size: 25px;
 }
 
@@ -97,11 +96,11 @@ body {
     font-weight: 800;
 }
 
-#guide ul {
+#keterangan ul {
     padding: 0 20px;
 }
 
-#guide ul li {
+#keterangan ul li {
     height: 50px;
     font-size: 16px;
 }
