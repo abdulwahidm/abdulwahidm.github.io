@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+header{
+   display: inline;
+}
+
+.jumbotron{
+   font-size: 20px;
+   padding: 1px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+   color-interpolation-filters: linearRGB;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.gambar-judul{
+   width: 125px;
+}
+
+body.darkmode {
+   background: rgb(57, 57, 57);
+   color: rgb(227, 227, 227);
+}
+
+nav{
+   background-color: #00a2c6;
+   padding: 1px;
+   position: sticky;
+   text-align: center;
+   top: 0;
+}
+
+nav li{
+   display: inline;
+   list-style-type: none;
+   margin-right: 40px;
+   text-align: left;
+}
+
+nav a{
+   font-size: 18px;
+   font-weight: 10;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover{
+   font-weight: bold;
+   background-attachment: fixed;
+   background-color: black;
+}
+
+main{
+   padding: 20px;
+   overflow:auto;
+}
+
+#content{
+   float: left;
+   width: 75%;
+}
+
+aside{
+   float: right;
+   width: 25%;
+   padding: 20px;
+}
+
+.tb {
+   text-align: left;
+}
+
+.te{
+   text-align: justify;
+}
+
+button {
+   font-size: 18px;
+   text-align: center;
+   padding: 1px;
+   border: 2px solid black;
+   border-radius: 5px;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+
+button:hover{
+   font-weight: bold;
+}
+
+p:first-letter{
+   display:block;
+   padding-top: 0cm;
+   font-size: 30px;
+   padding: 5px;
+   font-weight: bold;
+   float: left;
+   color: #00a2c6;
+}
+
+.koran {
+   column-count: 3;
+   column-width: 100px;
+   column-gap: 20px;
+   column-rule-width: 1px;
+   column-rule: 1px solid black;
+   column-span: all;
+   text-align: justify;
+}
+
+footer{
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+}
+
+.featured-image{
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile img{
+   width: 200px;
+}
+
+
+*{
+   box-sizing: border-box;
+}
+
+.profile header{
+   text-align: center;
+}
+
+.card{
+   box-shadow: 0 4px 8px 0;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+body{
+   font-family:'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0
+}
+h2{
+    color:#00a2c6
+}  
+  
+h3{
+    color: #00a2c6
+}
+
+
+.kotak_hubungi{
+    width: 75%;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+ 
+label{
+    font-size: 11pt;
+}
+ 
+.form_hubungi{
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+ 
+.form_komentar{
+   box-sizing : border-box;
+   width: 100%;
+   height: 200px;
+   padding: 10px;
+   font-size: 11pt;
+   text-overflow: clip;
+   margin-bottom: 20px;
+}
+
+.tombol_kirim{
+    background: #46de4b;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+ 
+.link{
+    color: #232323;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+@media screen and (max-width: 1000px)
+{
+   #content,aside {
+       width: 100%;
+       padding: 0;
+   }
+}
